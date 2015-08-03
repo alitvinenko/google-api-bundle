@@ -1,0 +1,14 @@
+{
+  "name": "alitvinenko/google-api-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony2 Google API bundle",
+  "keywords": [],
+  "autoload": {
+    "psr-0": { "Alitvinenko\\GoogleApiBundle\\": "src/" }
+  },
+  "require": {
+    "php": ">=5.3.0",
+    "symfony/symfony": "2.7.*",
+    "kriswallsmith/buzz": "~0.7"
+  }
+}
