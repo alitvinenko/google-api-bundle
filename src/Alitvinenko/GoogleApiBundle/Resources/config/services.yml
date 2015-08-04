@@ -1,3 +1,3 @@
 services:
-    alitvinenko.google_api:
+    alitvinenko_google_api:
         class: Alitvinenko\GoogleApiBundle\GoogleApi

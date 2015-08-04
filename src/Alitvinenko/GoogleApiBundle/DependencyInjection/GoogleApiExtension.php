@@ -19,7 +19,7 @@ class GoogleApiExtension extends Extension
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
 
-        $definition = $container->getDefinition('alitvinenko.google_api');
+        $definition = $container->getDefinition('alitvinenko_google_api');
         $definition->addArgument($config['key']);
     }
 }

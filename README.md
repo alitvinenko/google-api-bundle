@@ -51,5 +51,5 @@ alitvinenko_google_api:
 ## Basic Usage
 
 ``` php
-$this->getContainer()->get('alitvinenko.google_api')->getLanguage()->translate($words);
+$this->getContainer()->get('alitvinenko_google_api')->getLanguage()->translate($words);
 ```
