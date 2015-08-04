@@ -10,11 +10,11 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('alitvinenko_google_api');
+        $root = $treeBuilder->root('alitvinenko_google_api');
 
-        $rootNode
+        $root
             ->children()
-            ->scalarNode('key')->end()
+            ->scalarNode('key')->isRequired()->end()
             ->end()
         ;
 

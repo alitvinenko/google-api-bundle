@@ -1,6 +1,6 @@
 <?php
 
-namespace Alitvinenko\GoogleApiBundle\Google\Api;
+namespace Alitvinenko\GoogleApiBundle\Api;
 
 use Alitvinenko\GoogleApiBundle\HttpClient\HttpClient;
 

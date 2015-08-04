@@ -1,4 +1,3 @@
 services:
     alitvinenko.google_api:
         class: Alitvinenko\GoogleApiBundle\GoogleApi
-        arguments: %alitvinenko.google_api_key%
