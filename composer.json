@@ -1,6 +1,6 @@
 {
   "name": "alitvinenko/google-api-bundle",
-  "type": "symfony-bundle",
+  "type": "library",
   "description": "Symfony2 Google API bundle",
   "keywords": [],
   "autoload": {
